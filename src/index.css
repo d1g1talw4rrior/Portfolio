@@ -108,3 +108,14 @@ ul.header li a:hover {
     font-weight: bold;
 
 }
+
+/* active header */
+.header a.active {
+
+    color: rgb(26, 66, 245);
+
+    text-decoration: underline;
+
+    font-weight: bold;
+
+}
