@@ -51,24 +51,6 @@ class Main extends Component {
 
                     </ul>
 
-                    <div className="skills">
-
-                        <NavLink to="/html">HTML</NavLink>
-
-                        <NavLink to="/css">CSS</NavLink>
-
-                        <NavLink to="/javascript">JavaScript</NavLink>
-
-                        <NavLink to="/react">React</NavLink>
-
-                        <NavLink to="/python">Python</NavLink>
-
-                        <NavLink to="/nodejs">Node.js</NavLink>
-
-                        <NavLink to="/github">Github</NavLink>
-
-                    </div>
-
                     <div className="content">
 
                         <Routes>
@@ -136,6 +118,26 @@ class Main extends Component {
                         </Routes>
 
                     </div>
+                    
+                    <div className="skills">
+
+                        <NavLink to="/html">HTML</NavLink>
+
+                        <NavLink to="/css">CSS</NavLink>
+
+                        <NavLink to="/javascript">JavaScript</NavLink>
+
+                        <NavLink to="/react">React</NavLink>
+
+                        <NavLink to="/python">Python</NavLink>
+
+                        <NavLink to="/nodejs">Node.js</NavLink>
+
+                        <NavLink to="/github">Github</NavLink>
+
+                    </div>
+
+                    
 
                 </div>
 
