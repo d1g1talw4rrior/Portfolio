@@ -1,0 +1,117 @@
+body {
+
+    background-color: rgb(19, 19, 19);
+
+    color: rgb(220, 220, 220);
+
+    margin: 0;
+
+    padding: 20px;
+
+    font-family: Arial;
+
+}
+
+h1, h2, p, ul, li {
+
+    font-family: Arial;
+
+}
+
+ul.header li {
+
+    display: inline;
+
+    list-style-type: none;
+
+    margin: 0;
+
+}
+
+ul.header {
+
+    background-color: black;
+
+    padding: 0;
+
+}
+
+ul.header li a {
+
+    color: white;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 20px;
+
+    display: inline-block;
+
+    transition: 0.3s;
+
+}
+
+/* hover */
+ul.header li a:hover {
+
+    text-decoration: underline;
+
+    color: rgb(26, 66, 245);
+
+}
+
+/* active page */
+.active {
+
+    background-color: rgb(26, 66, 245);
+
+}
+
+.content {
+
+    background-color: rgb(32, 32, 32);
+
+    padding: 20px;
+
+}
+
+.skills {
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+.skills a {
+
+    margin-right: 15px;
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+}
+
+/* hover underline */
+.skills a:hover {
+
+    text-decoration: underline;
+
+    color: rgb(26, 66, 245);
+
+}
+
+/* active skill */
+.skills a.active {
+
+    color: rgb(26, 66, 245);
+
+    text-decoration: underline;
+
+    font-weight: bold;
+
+}
