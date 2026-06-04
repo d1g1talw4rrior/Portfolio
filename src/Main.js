@@ -7,17 +7,17 @@ import {
     NavLink
 } from "react-router-dom";
 
-import Koti from "./pages/Koti";
-import About from "./pages/About";
-import Html from "./pages/Html";
-import Css from "./pages/Css";
-import Javascript from "./pages/Javascript";
-import Reacti from "./pages/Reacti";
-import Python from "./pages/Python";
-import Nodejs from "./pages/Nodejs";
-import Github from "./pages/Github";
-import Yhteystiedot from "./pages/Yhteystiedot";
-import Projektit from "./pages/Projektit";
+import Koti from "./sivut/Koti";
+import About from "./sivut/About";
+import Html from "./sivut/Html";
+import Css from "./sivut/Css";
+import Javascript from "./sivut/Javascript";
+import Reacti from "./sivut/Reacti";
+import Python from "./sivut/Python";
+import Nodejs from "./sivut/Nodejs";
+import Github from "./sivut/Github";
+import Yhteystiedot from "./sivut/Yhteystiedot";
+import Projektit from "./sivut/Projektit";
 
 class Main extends Component {
 
