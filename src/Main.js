@@ -29,9 +29,10 @@ class Main extends Component {
 
                 <div>
 
-                    <h1>My Portfolio</h1>
-
                     <ul className="header">
+                        <li className="name">
+                            <NavLink to="/">Eeli Sivonen</NavLink>
+                        </li>
 
                         <li>
                             <NavLink to="/home">Home</NavLink>
@@ -118,7 +119,7 @@ class Main extends Component {
                         </Routes>
 
                     </div>
-                    
+
                     <div className="skills">
 
                         <NavLink to="/html">HTML</NavLink>
