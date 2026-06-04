@@ -61,13 +61,6 @@ ul.header li a:hover {
 
 }
 
-/* active page */
-.active {
-
-    background-color: rgb(26, 66, 245);
-
-}
-
 .content {
 
     background-color: rgb(32, 32, 32);
