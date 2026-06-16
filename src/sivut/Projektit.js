@@ -10,15 +10,36 @@ class Projektit extends Component {
 
                 <h1>Projects</h1>
 
-                <ul>
+                <div className="projekti-napit">
 
-                    <li> <a href="https://github.com/d1g1talw4rrior/">Projekti 1</a> </li>
+                    <a
+                        href="https://github.com/d1g1talw4rrior/project1"
+                        className="button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Project 1
+                    </a>
 
-                    <li> <a href="https://github.com/d1g1talw4rrior/">Projekti 2</a> </li>
+                    <a
+                        href="https://github.com/d1g1talw4rrior/project2"
+                        className="button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Project 2
+                    </a>
 
-                    <li> <a href="https://github.com/d1g1talw4rrior/">Projekti 3</a> </li>
+                    <a
+                        href="https://github.com/d1g1talw4rrior/project3"
+                        className="button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Project 3
+                    </a>
 
-                </ul>
+                </div>
 
             </div>
 

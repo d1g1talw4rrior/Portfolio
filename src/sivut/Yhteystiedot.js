@@ -6,10 +6,13 @@ class Yhteystiedot extends Component {
 
         return (
 
-            <div>
+            <div className="yhteys-nappi">
 
                 <h2>Contact me</h2>
-                <p><a href="mailto:eeli.sivonen4@email.com">eeli.sivonen4@email.com</a></p>
+                <a
+                    href="mailto:eeli.sivonen4@email.com" className="button">
+                    eeli.sivonen4@email.com
+                </a>
 
             </div>
 
